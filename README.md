@@ -3,8 +3,9 @@
 This project presents a comprehensive analysis of retail inventory and sales data to uncover insights that support demand forecasting and inventory optimization. It combines Power BI dashboards, SQL-based analytics, and Excel pivot summaries.
 
 
-📁 Project Structure
+### 📁 Project Structure
 
+```
 Retail_Inventory_Forecasting_Project/
 ├── PowerBI/
 │   ├── Inventory_Dashboard.pbix
@@ -27,6 +28,7 @@ Retail_Inventory_Forecasting_Project/
 │       ├── Top_SKUs
 │       ├── Stock_vs_Sales
 │       └── Raw_Data
+```
 
 
 🔧 Tools Used
