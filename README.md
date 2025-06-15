@@ -2,10 +2,9 @@
 
 This project presents a comprehensive analysis of retail inventory and sales data to uncover insights that support demand forecasting and inventory optimization. It combines Power BI dashboards, SQL-based analytics, and Excel pivot summaries.
 
+
 📁 Project Structure
-pgsql
-Copy
-Edit
+
 Retail_Inventory_Forecasting_Project/
 ├── PowerBI/
 │   ├── Inventory_Dashboard.pbix
@@ -29,12 +28,14 @@ Retail_Inventory_Forecasting_Project/
 │       ├── Stock_vs_Sales
 │       └── Raw_Data
 
+
 🔧 Tools Used
 Power BI – for interactive dashboard design and visualization
 
 MySQL Workbench – for querying, cleaning, and analyzing data
 
 Microsoft Excel – for pivot analysis and quick summaries
+
 
 📊 Key Insights
 Top Selling Products identified based on last 30 days’ sales.
@@ -46,6 +47,7 @@ Category-Level Inventory Summary for management-level overview.
 Overstocked Items detected by sales-to-stock mismatch.
 
 Pivot Tables to show monthly trends and product-level metrics.
+
 
 📌 How to Use
 Power BI
@@ -65,6 +67,7 @@ Excel
 View pivot summaries in inventory_pivots.xlsx
 
 Tabs include sales trend, top SKUs, and inventory vs. sales comparison
+
 
 🧠 Author
 Shreya Kolte
