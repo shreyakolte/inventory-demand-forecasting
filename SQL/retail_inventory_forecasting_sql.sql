@@ -94,15 +94,10 @@ SELECT SKU_Name, Current_Stock, Forecast_30_Days,
        (Forecast_30_Days - Current_Stock) AS deficit
 FROM raw_data
 WHERE Forecast_30_Days > Current_Stock;
-SELECT * FROM raw_data LIMIT 20;
 
 #C. Overstocked Items (Slow Movers)
 SELECT SKU_Name, Current_Stock, Sales_Last_30_Days
 FROM raw_data
 WHERE Current_Stock > 3 * Sales_Last_30_Days;
 
-SELECT COUNT(*) FROM raw_data;
-SELECT DATABASE();
-SELECT * FROM raw_data LIMIT 5;
-
-TRUNCATE TABLE raw_data;
+SELECT * FROM raw_data;
